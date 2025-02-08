@@ -1,0 +1,127 @@
+:root {
+  --font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-image: url(./image/image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.header-wrapper {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 58px;
+  padding: 0 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header-logo a {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  color: #fff;
+}
+.welcome {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+}
+.header-action-bar {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.line-between:after {
+  content: "";
+  border-left: 1px solid rgba(255, 255, 255, 0.9);
+  opacity: 0.5;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 112px;
+}
+.form-box {
+  padding: 34px 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-box__entry {
+  display: flex;
+  justify-content: space-between;
+}
+.form-box_sign-up {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #434343;
+}
+.form-box__log-in {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #3cb878;
+}
+.social__fb a {
+  padding: 11px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #305db8;
+  border-radius: 4px;
+}
+.form-box__social {
+  display: flex;
+  gap: 7px;
+}
+
+.social__line-between:before {
+  content: "";
+  border-left: 1px solid #0a162f;
+  opacity: 0.1;
+}
+.fb__text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+.social__google a {
+  text-decoration: none;
+  padding: 13.5px 0;
+  display: flex;
+  align-items: center;
+  background-color: #df4a32;
+  border-radius: 4px;
+}
+.google__icon {
+  padding-left: 13px;
+  padding-right: 7px;
+}
+.google__text {
+  padding: 0 23.5px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
